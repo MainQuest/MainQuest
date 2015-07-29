@@ -1,0 +1,91 @@
+.sect-port
+  overflow-x: hidden
+
+.work-belt
+  width: 200%
+  position: relative
+  left: 0%
+  +transition-duration (800ms)
+
+.thumb-wrap, .work-wrap
+  width: 50%
+  float: left
+
+.work-container
+  max-width: 600px
+  margin: 0 auto
+  position: relative
+  display: none
+
+  img
+    display: block
+    max-width: 100%
+
+.work-return
+  +size(25px)
+  +position(absolute, -8px null null -50px)
+  cursor: pointer
+  fill: $alt2-color
+
+  &:hover
+    fill: $alt1-color
+
+.thumb-container
+  display: block
+  max-width: 960px
+  padding-bottom: 50px
+  margin: 0px auto
+  +clearfix
+
+  label
+    display: block
+    position: relative
+    float: left
+    width: 33%
+    cursor: pointer
+
+    .thumb-unit
+      display: block
+      overflow: hidden
+
+      img
+        display: block
+        max-width: 100%
+
+  .thumb-overlay
+    +display (flex)
+    +position (absolute)
+    +align-items (center)
+    +justify-content (space-around)
+    +size(100%)
+    top: 0%
+    overflow: hidden
+    text-align: center
+
+.thumb-container label:hover
+  .thumb-overlay
+    background: fade-out($bg-color, 0.2)
+    +transition-duration (300ms)
+
+@media only screen and (max-width: 960px)
+  .thumb-container
+    margin-left: 5%
+    margin-right: 5%
+
+@media only screen and (max-width: 740px)
+  .work-container
+    margin-left: 5%
+    margin-right: 5%
+    .work-return
+      left: 0px
+    .project-title
+      margin-left: 50px
+
+  .thumb-container
+    label
+      width: 50%
+
+@media only screen and (max-width: 320px)
+  .thumb-container
+    label
+      width: 100%

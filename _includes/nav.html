@@ -1,0 +1,13 @@
+<nav>
+  <a href="#home" class="logo-container">
+    <div class="logo-img">{% include icons/mqlogo.html %}</div>
+  </a>
+  <div class="menu-container">
+    <div class="mobile">{% include icons/navMobile.html %}</div>
+    <div class="menu">
+      {% for item in site.data.nav.menu %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>

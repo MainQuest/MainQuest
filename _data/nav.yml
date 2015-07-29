@@ -1,0 +1,5 @@
+menu:
+- {name: Home, url: '#home'}
+- {name: Sobre, url: '#sobre'}
+- {name: Portfolio, url: '#portfolio'}
+- {name: Contato, url: '#contato'}

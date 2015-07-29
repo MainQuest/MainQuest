@@ -1,0 +1,87 @@
+nav
+  height: 50px
+  width: 100%
+  top: 0
+  position: fixed
+  z-index: 20
+  background-color: $bg-nav
+  svg
+    fill: $alt2-color
+    &:hover
+      fill: $alt1-color
+
+  .menu-container
+    display: inline-block
+    float: right
+    margin: 15px 3% 0 0
+
+  .mobile
+    display: none
+    float: right
+    margin: 0 0 20px 0
+    cursor: pointer
+    svg
+      height: 19px
+
+  .menu
+    display: inline-block
+    float: right
+    overflow: hidden
+    margin: 0
+
+  a
+    font:
+      family: $font-title
+      weight: $title-normal
+      size: 14px
+    text-transform: uppercase
+    display: inline-block
+    margin-left: 20px
+
+  a:hover
+    font:
+      weight: $title-bold
+
+.logo-container
+  display: inline-block
+  width: 130px
+  float:left
+  margin: 10px 0 0 3%
+  padding: 0
+
+.logo-img
+  display: none
+  width: 100%
+
+  svg
+    height: 30px
+
+@media (max-width: 540px)
+  nav
+    +transition-property (height)
+    +transition-duration (400ms)
+    .mobile
+      display: inline-block
+
+    .menu
+      max-height: 0
+      width: 100%
+      display: block
+      box-sizing: border-box
+      padding-right: 3%
+      margin: 0
+      +transition-property (max-height)
+      +transition-duration (400ms)
+
+    .show-mobile
+      max-height: 125px
+
+    a
+      display: block
+      width: 100%
+      margin: 0
+      padding:
+        bottom: 10px
+      text-align: right
+.show-nav
+  height: 175px

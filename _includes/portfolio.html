@@ -1,0 +1,24 @@
+<section class="sect sect-port">
+  <h3 id="portfolio">Portfolio</h3>
+  <div class="work-belt">
+    <div class="thumb-wrap">
+      <div class="thumb-container">
+        {% for item in site.data.port %}
+        <label for="{{ item.folder }}">
+          <div class="thumb-unit" data-folder='{{ item.folder }}'>
+            <img src="assets/imgs/work/{{ item.folder }}/thumb.png" alt="{{ item.name }}" />
+          </div>
+          <div class="thumb-overlay"></div>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="work-wrap">
+      <div class="work-container">
+        <div class="work-return">{% include icons/icon-setaBack.html %}</div>
+        <h4 class="project-title"></h4>
+        <div class="project-load"></div>
+      </div>
+    </div>
+  </div>
+</section>
