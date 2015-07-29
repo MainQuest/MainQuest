@@ -1,0 +1,32 @@
+.sect-sobre
+  width: 100%
+
+  .sobre-wrap
+    max-width: 600px
+    margin: auto
+
+  .sobre-text
+    display: none
+
+  #mq
+    color: $alt1-color
+
+  .lermais, .lermenos
+    display: inline-block
+    float: right
+    margin:
+      top: 20px
+    cursor: pointer
+    font:
+      family: $font-title
+      size: 14px
+    color: $text-color
+
+    &:hover
+      color: $alt1-color
+
+@media (max-width: 650px)
+  .sobre-container
+    margin:
+      left: 5%
+      right: 5%
