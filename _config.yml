@@ -5,7 +5,7 @@ description: > #
   Filmamos, fotografamos, fazemos vinhetas, animações em 2D ou 3D...
   transformamos uma sequência de fotos em um vídeo animado, ou animamos fotografias, ou animamos desenhos, ou criamos imagens loucas para transformar em um vídeo psicodélico, ou filmamos imagens reais e as mesclamos com imagens em 2D, (essas imagens também podem ser animadas, ou em 3D, ou o que você quiser) ou...
   Já falamos que fazemos tudo isso com uma arte bem bonita?
-baseurl: "/mainquest" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.mainquest.com.br" # the base hostname & protocol for your site
 
 # Build settings
