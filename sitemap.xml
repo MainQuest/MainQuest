@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://www.mainquest.com.br/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.mainquest.com.br/work/proj-1.html</loc>
+    <video:video>
+      <video:thumbnail_loc>http://www.mainquest.com.br/assets/imgs/work/proj-1/thumb.png</video:thumbnail_loc>
+      <video:title>MainQuest - Portfolio Vinhetas</video:title>
+      <video:description>Esse vídeo é uma compilação de vinhetas animadas. Entre os clientes estão a Bisol Imóveis e o evento Discografia do Pop Rock Gaúcho 2015.</video:description>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+      https://player.vimeo.com/video/134694935</video:player_loc>
+   </video>
+  </url>
+  <url>
+    <loc>http://www.mainquest.com.br/work/proj-2.html</loc>
+    <video:video>
+      <video:thumbnail_loc>http://www.mainquest.com.br/assets/imgs/work/proj-2/thumb.png</video:thumbnail_loc>
+      <video:title>MainQuest - Portfolio Eventos</video:title>
+      <video:description>Esse vídeo é uma compilação com trechos de gravações de eventos. Entre os clientes estão a Mezanino Produções, o DJ Luciano Corrêa e a estilista Baby Steinberg.</video:description>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+      https://player.vimeo.com/video/134695135</video:player_loc>
+   </video>
+  </url>
+  <url>
+    <loc>http://www.mainquest.com.br/work/proj-3.html</loc>
+    <video:video>
+      <video:thumbnail_loc>http://www.mainquest.com.br/assets/imgs/work/proj-3/thumb.png</video:thumbnail_loc>
+      <video:title>MainQuest - Portfolio Diversos</video:title>
+      <video:description>Esse vídeo é uma compilação de diferentes tipos de trabalhos audiovisuais. Entre eles, uma animação personalizada especialmente desenvolvida para passar no telão durante os shows da Discografia do Pop Rock Gaúcho 2015.</video:description>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+      https://player.vimeo.com/video/134974404</video:player_loc>
+   </video>
+  </url>
+</urlset>
