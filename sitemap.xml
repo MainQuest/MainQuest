@@ -14,7 +14,7 @@
       <video:description>Esse vídeo é uma compilação de vinhetas animadas. Entre os clientes estão a Bisol Imóveis e o evento Discografia do Pop Rock Gaúcho 2015.</video:description>
       <video:player_loc allow_embed="yes" autoplay="ap=1">
       https://player.vimeo.com/video/134694935</video:player_loc>
-   </video>
+    </video>
   </url>
   <url>
     <loc>http://www.mainquest.com.br/work/proj-2.html</loc>
@@ -24,7 +24,7 @@
       <video:description>Esse vídeo é uma compilação com trechos de gravações de eventos. Entre os clientes estão a Mezanino Produções, o DJ Luciano Corrêa e a estilista Baby Steinberg.</video:description>
       <video:player_loc allow_embed="yes" autoplay="ap=1">
       https://player.vimeo.com/video/134695135</video:player_loc>
-   </video>
+    </video>
   </url>
   <url>
     <loc>http://www.mainquest.com.br/work/proj-3.html</loc>
@@ -34,6 +34,6 @@
       <video:description>Esse vídeo é uma compilação de diferentes tipos de trabalhos audiovisuais. Entre eles, uma animação personalizada especialmente desenvolvida para passar no telão durante os shows da Discografia do Pop Rock Gaúcho 2015.</video:description>
       <video:player_loc allow_embed="yes" autoplay="ap=1">
       https://player.vimeo.com/video/134974404</video:player_loc>
-   </video>
+    </video>
   </url>
 </urlset>
