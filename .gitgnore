@@ -50,5 +50,6 @@ prepros.cfg
 
 ### Jekyll ###
 _site/
+_Site/
 .sass-cache/
 sas

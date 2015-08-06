@@ -12,16 +12,28 @@
   <meta name="description" content="{{ site.description }}" />
 
   <meta property="og:title" content="{{ site.title }}" />
-  <meta property="og:type" content="article" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/imgs/logo.png" />
 
   <meta property="fb:admins" content="626862826" />
+  <meta property="fb:app_id" content="1401283936836291" />
 
   <title>{{ site.title }}</title>
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="shortcut icon" href="favicon.ico">
+
+  <script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "{{ site.baseurl }}",
+      "logo": "{{ site.baseurl }}/assets/imgs/logo.png"
+      }
+    </script>
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
