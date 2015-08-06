@@ -1,8 +1,8 @@
 # Site settings_dirc
 title: MainQuest - Soluções Audiovisuais
 description: > #
-  MainQuest - Soluções Audiovisuais
-  Filmamos, fotografamos, fazemos vinhetas, animações em 2D ou 3D...
+  Soluções Audiovisuais. Animações, vinhetas, webvídeos, institucionais.
+  Tem uma idéia ou precisa de alguma? Vamos conversar, entre em contato.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.mainquest.com.br" # the base hostname & protocol for your site
 
